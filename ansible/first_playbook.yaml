@@ -1,0 +1,15 @@
+---
+
+- hosts: webservers
+  become: yes
+  name: play1
+  roles: 
+      - apache
+
+
+
+
+
+
+
+   
